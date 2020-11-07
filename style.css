@@ -1,0 +1,88 @@
+header {
+  text-align: center;
+  min-height: 10vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.button {
+  display: flex;
+  margin: 30px;
+  padding: 30px;
+  height: 10px;
+  width: 80px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: #eee;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #aaa;
+  color: #333;
+  font-size: 1.1em;
+}
+
+.box {
+  background-color: #eee;
+  border: 1px solid #333;
+}
+
+.active {
+  background-color: #333;
+}
+
+.main {
+  height: 720px;
+  width: 720px;
+  display: grid;
+}
+
+.grid-1x {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-2x {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3x {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4x {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-5x {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-6x {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.grid-7x {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.grid-8x {
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.grid-9x {
+  grid-template-columns: repeat(9, 1fr);
+}
+
+.grid-10x {
+  grid-template-columns: repeat(10, 1fr);
+}
